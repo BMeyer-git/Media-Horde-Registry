@@ -185,3 +185,9 @@ nav a:hover {
   font-weight: 500;
   font-size: 20px;
 }
+.logo{
+  width: 300px;
+  border: 2px solid black;
+  margin-bottom: 10px;
+
+}
