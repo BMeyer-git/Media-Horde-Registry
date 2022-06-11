@@ -1,0 +1,80 @@
+body{
+    background-color: #011638;
+    color: #FFF;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Josefin Sans', Impact, 'Arial Narrow Bold', sans-serif;
+}
+
+p{
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: left;
+    background-color: #214E34;
+    margin: 50px;
+    padding-bottom: 50px;
+    border: 3px solid #cdcdcd;
+    border-radius: 3px;
+}
+
+.logo{
+    margin: 50px 0 20px 50px;
+    border: 3px solid #cdcdcd;
+    border-radius: 3px;
+}
+
+header h1{
+    margin-left: 50px;
+}
+
+header nav ul{
+    margin-top: 50px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+
+header nav ul li a{
+    margin: 20px;
+    padding: .8rem 2vw;
+    border: 3px solid #DFF8EB;
+    border-radius: 3px;
+}
+
+header nav ul li a:link{
+    background-color: #011638;
+    color: #FFF;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    text-decoration: underline;
+    background-color: #364156;
+    border: 3px solid #cdcdcd;
+}
+
+header nav ul li a:visited{
+    color: #FFF;
+    text-decoration: none;
+}
+
+main{
+    text-align: center;
+}
+
+footer{
+    background-color: #214E34;
+    padding: 20px;
+    margin: 50px;
+    border: 3px solid #CDCDCD;
+    border-radius: 3px;
+    text-align: center;
+}
