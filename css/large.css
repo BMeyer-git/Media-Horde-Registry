@@ -1,0 +1,55 @@
+@media (min-width: 60em) {
+        
+    header{
+        text-align: left;
+        margin: 50px;
+        padding-bottom: 50px;
+    }
+
+    .logo{
+        margin: 50px 0 20px 50px;
+    }
+
+    header h1{
+        margin-left: 50px;
+    }
+
+    header nav ul{
+        margin-top: 50px;
+        display: flex;
+        flex-direction: row;
+        flex: 1 1 auto;
+        margin-left: 30px;  
+    }
+
+    header nav ul li a{
+        margin: 20px;
+        padding: .8rem 2vw;
+    }
+
+    header nav ul li a:link{
+        font-size: 20px;
+        margin: 20px;
+        padding: 20px;
+        text-decoration: none;
+        }
+
+    header nav ul li{
+        padding: 0px; 
+    }
+
+    main{
+        text-align: center;
+        width: ;
+    }
+
+    #hamburgerBtn {
+        display: none;
+    }
+
+    footer{
+        padding: 20px;
+        margin: 50px;
+        text-align: center;
+    }
+}

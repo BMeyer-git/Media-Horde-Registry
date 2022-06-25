@@ -1,80 +1,113 @@
-body{
-    background-color: #011638;
-    color: #FFF;
+body {
+  background-color: #011638;
+  color: #fff;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-family: 'Josefin Sans', Impact, 'Arial Narrow Bold', sans-serif;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Josefin Sans", Impact, "Arial Narrow Bold", sans-serif;
 }
 
-p{
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
+p {
+  font-family: "Inter", Arial, Helvetica, sans-serif;
 }
 
-header{
-    text-align: left;
-    background-color: #214E34;
-    margin: 50px;
-    padding-bottom: 50px;
-    border: 3px solid #cdcdcd;
-    border-radius: 3px;
+header {
+  text-align: center;
+  background-color: #214e34;
+  margin: 50px;
+  padding-bottom: 25px;
+  border: 3px solid #cdcdcd;
+  border-radius: 3px;
 }
 
-.logo{
-    margin: 50px 0 20px 50px;
-    border: 3px solid #cdcdcd;
-    border-radius: 3px;
+.logo {
+  margin: 50px 0 20px 50px;
+  border: 3px solid #cdcdcd;
+  border-radius: 3px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-header h1{
-    margin-left: 50px;
+nav ul {
+  margin-top: 25px;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  display: none;
 }
 
-header nav ul{
-    margin-top: 50px;
-    font-family: 'Inter', Arial, Helvetica, sans-serif;
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    flex: 1 1 auto;
+nav ul.open {
+  display: block;
+  flex: 1 1 auto;
 }
 
-header nav ul li a{
-    margin: 20px;
-    padding: .8rem 2vw;
-    border: 3px solid #DFF8EB;
-    border-radius: 3px;
+header nav ul li {
+  padding: 30px;
+  margin-left: 0px;
 }
 
-header nav ul li a:link{
-    background-color: #011638;
-    color: #FFF;
-    font-size: 20px;
-    margin: 20px;
-    padding: 20px;
-    text-decoration: none;
+header nav ul li a {
+  margin: 20px;
+  padding: 0.8rem 2vw;
+  border: 3px solid #dff8eb;
+  border-radius: 3px;
 }
 
-header nav ul li a:hover{
-    text-decoration: underline;
-    background-color: #364156;
-    border: 3px solid #cdcdcd;
+header nav ul li a:link {
+  background-color: #011638;
+  color: #fff;
+  font-size: 20px;
+  margin: 30px;
+  padding: 20px;
+  text-decoration: none;
 }
 
-header nav ul li a:visited{
-    color: #FFF;
-    text-decoration: none;
+header nav ul li a:hover {
+  text-decoration: underline;
+  background-color: #364156;
+  border: 3px solid #cdcdcd;
 }
 
-main{
-    text-align: center;
+header nav ul li a:visited {
+  color: #fff;
+  text-decoration: none;
 }
 
-footer{
-    background-color: #214E34;
-    padding: 20px;
-    margin: 50px;
-    border: 3px solid #CDCDCD;
-    border-radius: 3px;
-    text-align: center;
+#hamburgerBtn span:nth-child(1) {
+  display: block;
+}
+#hamburgerBtn span:nth-child(2) {
+  display: none;
+}
+
+#hamburgerBtn.open span:nth-child(1) {
+  display: none;
+}
+#hamburgerBtn.open span:nth-child(2) {
+  display: block;
+}
+
+nav button {
+  background-color: #fff;
+  border: 2px solid #555;
+  font-size: 2.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+main {
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+
+footer {
+  background-color: #214e34;
+  padding: 20px;
+  margin: 50px;
+  border: 3px solid #cdcdcd;
+  border-radius: 3px;
+  text-align: center;
 }
