@@ -14,7 +14,7 @@ p {
 header {
   text-align: center;
   background-color: #214e34;
-  margin: 50px;
+  margin: 25px;
   padding-bottom: 25px;
   border: 3px solid #cdcdcd;
   border-radius: 3px;
@@ -109,7 +109,7 @@ main {
 footer {
   background-color: #214e34;
   padding: 20px;
-  margin: 50px;
+  margin: 25px;
   border: 3px solid #cdcdcd;
   border-radius: 3px;
   text-align: center;
