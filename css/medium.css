@@ -1,3 +1,9 @@
 @media (min-width: 37.5em) {
-    
+    header{
+        margin: 35px;
+    }
+
+    footer{
+        margin: 35px;
+    }
 }
