@@ -1,9 +1,9 @@
 @media (min-width: 67em) {
-        
+    
     header{
         text-align: left;
         margin: 50px;
-        padding-bottom: 50px;
+        padding-bottom: 25px;
     }
 
     .logo{
@@ -15,16 +15,16 @@
     }
 
     header nav ul{
-        margin-top: 50px;
+        margin-top: 20px;
         display: flex;
         flex-direction: row;
         flex: 1 1 auto;
         margin-left: 30px;  
+        padding-left: 0;
     }
 
     header nav ul li a{
         margin: 20px;
-        padding: .8rem 2vw;
     }
 
     header nav ul li a:link{
@@ -35,7 +35,10 @@
         }
 
     header nav ul li{
-        padding: 0px; 
+        padding: 0px;
+        display: flex;
+        margin-left: 0;
+        margin-right: 0; 
     }
 
     main{
