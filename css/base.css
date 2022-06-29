@@ -114,3 +114,16 @@ footer {
   border-radius: 3px;
   text-align: center;
 }
+
+.iflink:link{
+  color: #fff;
+}
+
+.iflink:hover{
+  text-decoration: underline;
+}
+
+.iflink:visited{
+  text-decoration: none;
+  color: #dff8eb;
+}
