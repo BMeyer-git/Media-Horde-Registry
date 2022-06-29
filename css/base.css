@@ -65,15 +65,15 @@ header nav ul li a:link {
   text-decoration: none;
 }
 
+header nav ul li a:visited {
+  color: #fff;
+  text-decoration: none;
+}
+
 header nav ul li a:hover {
   text-decoration: underline;
   background-color: #364156;
   border: 3px solid #cdcdcd;
-}
-
-header nav ul li a:visited {
-  color: #fff;
-  text-decoration: none;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -115,15 +115,16 @@ footer {
   text-align: center;
 }
 
-.iflink:link{
+footer a:link {
   color: #fff;
+  text-decoration: none;
 }
 
-.iflink:hover{
-  text-decoration: underline;
-}
-
-.iflink:visited{
+footer a:visited {
   text-decoration: none;
   color: #dff8eb;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
