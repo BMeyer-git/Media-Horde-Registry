@@ -104,6 +104,10 @@ main {
   text-align: center;
   width: 90%;
   margin: auto;
+  border: 3px solid #cdcdcd;
+  border-radius: 3px;
+  background-color: #dff8eb;
+  color: #000;
 }
 
 footer {
