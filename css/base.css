@@ -52,7 +52,7 @@ header nav ul li {
 header nav ul li a {
   margin: 20px;
   padding: 0.8rem 2vw;
-  border: 3px solid #dff8eb;
+  border: 3px solid #cdcdcd;
   border-radius: 3px;
 }
 
@@ -73,7 +73,7 @@ header nav ul li a:visited {
 header nav ul li a:hover {
   text-decoration: underline;
   background-color: #364156;
-  border: 3px solid #cdcdcd;
+  border: 3px solid #fff;
 }
 
 #hamburgerBtn span:nth-child(1) {
@@ -106,8 +106,8 @@ main {
   margin: auto;
   border: 3px solid #cdcdcd;
   border-radius: 3px;
-  background-color: #dff8eb;
-  color: #000;
+  background-color: #364156;
+  color: #fff;
 }
 
 footer {
