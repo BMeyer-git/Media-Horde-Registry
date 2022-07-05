@@ -157,6 +157,7 @@ footer a:hover {
 .instruc ul{
   margin: 20px;
   text-align: center;
+  padding-left: 0;
 }
 
 #instrcont:link{
@@ -171,6 +172,10 @@ footer a:hover {
 
 #instrcont:visited{
   color: #dff8eb;
+}
+
+#instrend{
+  margin-bottom: 40px;
 }
 /******* Home Page *******/
 .home h2{
