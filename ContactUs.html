@@ -35,14 +35,7 @@
             </div>    
         </header>
         <main>
-            <div class="contactus">
             <h2>Contact Us</h2>
-            <div>Email: ExampleEmail@mediahorde.com</div>
-            <div>Phone: 123-456-7890</div>
-            <div>Github: [github profile link]</div>
-            <div>Please send us information on your experience and any suggestions to improve the website!</div>
-            </div>
-
             <form method="get" action="contactthanks.html">
                 <fieldset id="contactform">
                     <legend>
@@ -52,19 +45,13 @@
                         <label class="top">First Name * <input type="text" name="fname" placeholder="Brigham" required></label>
                         <label class="top">Last Name * <input type="text" name="lname"  placeholder="Young" required></label>                        
                         <label class="top">Email * <input type="email" name="email" placeholder="someone@outlook.com" required></label>                            
-                        <label class="top">Cell Phone * <input type="tel" name="phone" placeholder="5555559876" required></label>
                         <label class="top">Subject * <select class="dropdown" name="subject" required>
                                 <option value="" disabled selected>Please select an inquiry subject</option>
-                                <option value="Amenities" >Amenities</option>
-                                <option value="Missionaries" >Missionaries</option>
-                                <option value="Receptions" >Receptions</option>
-                                <option value="Services" >Services</option>
-                                <option value="Other" >Other</option>
+                                <option value="Request Spreadsheet" >Request Spreadsheet</option>
+                                <option value="Correct Item" >Correct Item</option>
+                                <option value="Other Inquiry" >Other Inquiry</option>
                             </select></label>
                         <label class="top">Inquiry <textarea id="inquiry" name="inquiry" rows="4" cols="50" placeholder="Please enter your questions and comments here."></textarea></label>
-                        <p id="responsemethod">Preferred Response Method</p>
-                        <label class="sbs"><input type="radio" name="response" value="phone"> Phone Call</label>
-                        <label class="sbs"><input type="radio" name="response" value="email"> Email</label>
                         <input type="hidden" name="date" id="current_date" > 
                 </fieldset>
                 <div class="center">
