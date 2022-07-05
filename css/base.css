@@ -189,7 +189,8 @@ footer a:hover {
 }
 
 .why p{
-  margin: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
 .whyimg{
@@ -201,8 +202,12 @@ footer a:hover {
 figcaption{
   font-family: "Inter", Arial, Helvetica, sans-serif;
   font-size: 14px;
+  color: #dff8eb;
 }
 
+#lastpic{
+  margin-bottom: 40px;
+}
 /******* Media Form Page *******/
 .mediaform h2{
   font-size: 30px;

@@ -66,5 +66,11 @@
         width: 820px;
     }
 
+    /******* Why MHR? Page *******/
+    .why p{
+        margin-left: 60px;
+        margin-right: 60px;
+      }
+
 }
 
