@@ -229,3 +229,124 @@ figcaption{
 .contactus h2{
   font-size: 30px;
 }
+
+#contactimg{
+  display: none;
+  grid-column: 2/3;
+  width: 75%;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #999;
+  border-radius: 12px;
+}
+
+#contactgrid {
+  width: 90%;
+  background-color: #fff;
+  border-radius: 12px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+form fieldset {
+  grid-row: 1/2;
+  width: 85%;
+  text-align: left;
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #1a4173;
+  border-radius: 10px;
+  padding: 0.5rem 0.5rem 2%;
+}
+
+form legend {
+  color: #1a4173;
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+  color: #9c2c13;
+  font-size: 1.1rem;
+}
+
+form label.top input,
+form label.top select {
+  -webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border: 1px solid #999;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: #555;
+  width: 90%;
+  max-width: 20rem;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+form input.submitBtn {
+  font-family: "Inter", Arial, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  border: 3px solid #b78627;
+  background-color: #1a4173;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.75rem 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  width: 96%;
+  max-width: 20rem;
+  cursor: pointer;
+}
+
+form input.submitBtn:hover {
+  background-color: #dff8eb;
+  color: #011638;
+  border: 3px solid #392f5a;
+}
+
+.top,
+.sbs,
+#responsemethod {
+  margin-left: 15px;
+}
+
+#asterisk {
+  color: #5e1a0b;
+  margin: 10px 0 0 15px;
+  font-size: 16px;
+}
+.dropdown {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: transparent
+    url(http://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/br_down.png)
+    no-repeat 100% center;
+  padding-right: 5px;
+  max-width: 50rem;
+}
+
+#inquiry {
+  width: 90%;
+  max-width: 50rem;
+  background-color: #dddddd;
+  padding: 0.75rem;
+}
+
+form{
+  padding-top: 5px;
+  padding-bottom: 25px;
+}
