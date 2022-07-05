@@ -54,4 +54,17 @@
         margin: 50px;
         text-align: center;
     }
+
+        /******* Instructions Page *******/
+    .instruc p{
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+
+    /******* Media Form Page *******/    
+    .mediaform iframe{
+        width: 820px;
+    }
+
 }
+

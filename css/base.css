@@ -132,3 +132,71 @@ footer a:visited {
 footer a:hover {
   text-decoration: underline;
 }
+/******* Instructions Page *******/
+.instruc h2{
+  font-size: 30px;
+}
+
+.instruc h3{
+  font-size: 26px;
+}
+
+.instruc h4{
+  font-size: 22px;
+}
+
+.instruc p{
+  margin: 20px;
+}
+
+.instruc ul li{
+  list-style-type: none;
+  font-family: "Inter", Arial, Helvetica, sans-serif;
+}
+
+.instruc ul{
+  margin: 20px;
+  text-align: center;
+}
+
+#instrcont:link{
+  color: #fff;
+  text-decoration: none;
+}
+
+#instrcont:hover{
+  color: #dff8eb;
+  text-decoration: underline;
+}
+
+#instrcont:visited{
+  color: #dff8eb;
+}
+/******* Home Page *******/
+.home h2{
+  font-size: 30px;
+}
+
+/******* Why MHR? Page *******/
+.why h2{
+  font-size: 30px;
+}
+
+/******* Media Form Page *******/
+.mediaform h2{
+  font-size: 30px;
+}
+
+.mediaform iframe{
+  width: 320px;
+  margin-bottom: 30px;
+}
+
+.mediaform p{
+  margin: 20px;
+}
+
+/******* Contact Us Page *******/
+.contactus h2{
+  font-size: 30px;
+}

@@ -6,4 +6,11 @@
     footer{
         margin: 35px;
     }
+
+    
+    /******* Media Form Page *******/    
+    .mediaform iframe{
+        width: 640px;
+    }
+
 }
