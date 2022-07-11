@@ -220,6 +220,7 @@ figcaption{
   width: 320px;
   margin-bottom: 30px;
   background-color: #cdcdcd;
+  border: 3px solid #b78627;
   border-radius: 12px;
 }
 
@@ -357,5 +358,6 @@ form{
     width: 320px;
     margin-bottom: 30px;
     background-color: #cdcdcd;
+    border: 3px solid #b78627;
     border-radius: 12px;
  }
