@@ -76,7 +76,12 @@
     .contactus h2{
         font-size: 30px;
     }
-    
+
+    .contform iframe{
+        width: 820px;
+        height: 1280px;
+        }
+
     #contactgrid{
         width: 90%;
         display: grid;

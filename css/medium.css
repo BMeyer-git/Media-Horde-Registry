@@ -13,4 +13,9 @@
         width: 640px;
     }
 
+    /********* Contact Us Page *********/
+    .contform iframe{
+        width: 640px;
+      }
+
 }
