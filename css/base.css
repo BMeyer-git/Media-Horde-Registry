@@ -185,6 +185,14 @@ footer a:hover {
   font-size: 30px;
 }
 
+.home p{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+#lastp{
+  margin-bottom: 30px;
+}
 /******* Why MHR? Page *******/
 .why h2{
   font-size: 30px;
