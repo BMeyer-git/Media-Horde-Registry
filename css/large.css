@@ -55,6 +55,19 @@
         text-align: center;
     }
 
+    .socialhead{
+        font-family: "Josefin Sans", Impact, "Arial Narrow Bold", sans-serif;
+        display:grid;
+        grid-template-columns: repeat(4, 1fr);
+
+    }
+
+    .social{
+        justify-content: right;
+        grid-column: 4/5;
+        margin-left:60%;
+        display:block;
+    }
         /******* Instructions Page *******/
     .instruc p{
         margin-left: 60px;

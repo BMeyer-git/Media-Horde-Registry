@@ -132,6 +132,14 @@ footer a:visited {
 footer a:hover {
   text-decoration: underline;
 }
+
+.social{
+  justify-content: right;
+  grid-column: 4/5;
+  margin-left:60%;
+  display:none;
+}
+
 /******* Instructions Page *******/
 .instruc h2{
   font-size: 30px;
@@ -192,6 +200,12 @@ footer a:hover {
 
 #lastp{
   margin-bottom: 30px;
+}
+
+.homeimg{
+  width: 75%;
+  border: 2px solid #cdcdcd;
+  border-radius: 3px;
 }
 /******* Why MHR? Page *******/
 .why h2{
