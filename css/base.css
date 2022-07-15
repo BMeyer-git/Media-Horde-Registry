@@ -140,6 +140,10 @@ footer a:hover {
   display:none;
 }
 
+#facebook{
+  margin-right: 10px;
+}
+
 /******* Instructions Page *******/
 .instruc h2{
   font-size: 30px;
